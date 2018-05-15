@@ -1,7 +1,7 @@
 package priv.interview.module.algorithm;
 
 /*
-  singleon
+  singleton
  */
 public class Singleton {
     private static final Object sync = new Object();

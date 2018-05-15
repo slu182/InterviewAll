@@ -1,0 +1,28 @@
+spring  filter 和 Interceptor
+spring aop和ioc
+spring aop 分为基于java的动态代理和基于cglib的动态代理
+springmvc的原理 dispatcherServlet分发的过程
+mybatis的原理session mapper等的创建
+
+springmvc interceptor的本质是servlet
+
+mybatis 原理
+
+hibernate
+
+struts2  interceptor本质是servlet
+
+hession
+
+shiro
+
+cxf
+
+springboot
+
+springcloud
+
+
+常用的rpc框架
+netty 微服务
+

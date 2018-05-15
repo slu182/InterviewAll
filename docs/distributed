@@ -1,0 +1,18 @@
+微服务
+dubbo rpc
+
+springboot和springcloud
+springboot原理注解 区分基于java配置和基于注解的配置
+springcloud原理
+
+zuul 构建api网关
+eureka 服务注册和发现
+ribbon 客户端的负载均衡
+feign 声明式的请求
+
+具体的配置没有使用过
+
+
+zookeeper服务注册和发现
+
+配置中心 lion 使用zookeeper实现的

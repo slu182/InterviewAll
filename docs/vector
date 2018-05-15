@@ -1,0 +1,7 @@
+一、集合类
+list: ArrayList CopyOnWriteArrayList
+map：HashMap ConncurrentHashMap HashTable
+
+quene
+blockingQuene
+conncurrentLinkedQuene

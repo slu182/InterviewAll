@@ -1,0 +1,40 @@
+#thread
+
+synchronized 和volatile和lock的区别
+
+ExecutorService的用法
+Future<Integer> future = es.submit() runnable 和callable
+future.isDone();
+future.get();
+es.shutdown();
+
+//execute没有返回值，而submit的返回值是Future对象
+es.excute(new Runnable(){
+@override
+public void run(){
+}
+});
+}
+
+Fork/join
+并发集合
+
+lock
+Reetranlock
+aqs(Abstract Quened Synchronizer)
+cas(compare and swap)
+
+原子操作工具类
+AtomicInteger AtomicIntegerArray
+i++的指令重排序
+
+
+并发操作工具类
+CountDownLatch countdownlatch.countdown();
+CyclicBarrier cb.await(); 执行次数结束后
+Semaphore s.aquire(); s.release(); 控制流量
+
+
+
+
+
