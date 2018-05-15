@@ -1,7 +1,30 @@
 一、集合类
-list: ArrayList CopyOnWriteArrayList
-map：HashMap ConncurrentHashMap HashTable
+1) list:
+ArrayList
+双端链表，初始容量为10
 
-quene
+CopyOnWriteArrayList
+2) map：
+HashMap
+数据结构和原理， 数组和链表 “链表散列”  如果数组该位置上已经存放有其他元素了，那么在这个位置上的元素将以链表的形式存放，新加入的放在链头，最先加入的放在链尾。如果数组该位置上没有元素，就直接将该元素放到此数组中的该位置上
+哈希冲突如何解决，
+线程安全问题如何解决，
+fail-fast机制 我们知道java.util.HashMap不是线程安全的，因此如果在使用迭代器的过程中有其他线程修改了map，那么将抛出ConcurrentModificationException，这就是所谓fail-fast策略。
+
+HashSet数据结构和原理
+
+ConncurrentHashMap
+分段锁 segement
+
+HashTable
+synchronized
+
+3) quene
 blockingQuene
 conncurrentLinkedQuene
+
+poll()
+peek();
+remove();
+
+

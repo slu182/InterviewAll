@@ -1,6 +1,11 @@
 #core
 
 string 字符串池，不可变字符串
+tomcat
+nginx
+
+lucene
+solr
 
 
 

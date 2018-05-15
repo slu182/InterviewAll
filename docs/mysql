@@ -17,6 +17,10 @@ mysql执行过程
 执行
 如果有则返回结果集
 
+sortfile
+
+nosql数据库 内存的swap
+
 
 
 
